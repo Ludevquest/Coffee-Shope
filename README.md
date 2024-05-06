@@ -17,7 +17,7 @@ Além disso, o deploy foi feito no Netlify.
 Você pode testar a aplicação aqui no link abaixo: <br>
 <a href="coffeeshop-lu.netlify.app">Link para a aplicação</a>
 
-```O acesso também está disponibilizado  na aba <strong>SOBRE</strong> que está ao lado.```
+```O acesso também está disponibilizado  na aba "About" que está ao lado.```
 
 ## ⚙️ Execução
 Caso queira rodar o projeto localmente, apenas clone (ou baixe) o repositório para a sua máquina.

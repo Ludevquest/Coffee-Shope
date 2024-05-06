@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  font-family: "inter";
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  cursor: default;
+}
+
+h1 {
+  font-family: "Kaisei Tokumin";
+  color: #156039;
+}
+
+p, button {
+  font-family: "Kaisei Tokumin";
+}
+
+#menusuperior {
+  background-color: #FFFEFE;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  gap: 664px;
+}
+
+#logo {
+  margin: 16px 0px 9px 147px;
+}
+
+#menu-atalhos {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin-top:  39px;
+  margin-bottom: 35px;
+  margin-right: 167px;
+  gap: 55px;
+}
+.atalhos {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+#menuInformacional {
+  background-color: #E8F3E3;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding-top: 52px;
+  padding-bottom: 35px;
+  padding-left: 215px;
+  gap: 170px;
+}
+
+#text {
+  text-align: center;
+  margin-bottom: 136px;
+  margin-top: 136px;
+  margin-right: 215px;
+}
+
+#texto-informacional {
+  font-family: "Kaisei Tokumin";
+  color: #156039;
+  font-size: 32px;
+  font-weight: 500px;
+  width: 377px;
+  height: 184px;
+}
+
+.botao {
+  width: 211px;
+  height: 50px;
+  background: #F8D456;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #156039;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #156039;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.texto-frases {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.texto-frases:first-child {
+  margin-left: 128px;
+}
+.texto-frases:last-child {
+  margin-right: 125px;
+}
+
+.contato {
+  font-family: "Kaisei Tokumin";
+  font-size: 24px;
+  text-align: center;
+  color: #156039;
+  margin-top: 54px;
+  margin-bottom: 58px;
+}
+.contato > a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  grid-gap: 31px;
+  justify-content: center;
+  margin-bottom: 89px;
+}
+
+.cards-item {
+  font-family: "Kaisei Tokumin";
+  color: #156039;
+  text-align: center;
+  padding-top: 30px;
+}
+
+figcaption h1 {
+  font-size: 24px;
+  white-space: nowrap;
+}
+figcaption p {
+  font-size: 14px;
+}
+
+#localizacao {
+  background-color: #B9B899;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 163px;
+}
+
+#secao-localizacao {
+  justify-self: center;
+  align-self: center;
+}
+
+.texto-container {
+  margin-right: 0;
+  padding-right: 164px;
+  text-align: center;
+}
+
+.plantas {
+  padding-left: 0px;
+  padding-right: 52px;
+  padding-bottom: 11px;
+}
+
+.texto-container h1 {
+  width: 336px;
+  heidht: 46px;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.texto-container p {
+  width: 393px;
+  height: 120px;
+  font-size: 14px;
+  padding-bottom: 29px;
+}
+
+#titulo-loja {
+  margin-top: 92px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+
+#cards-loja {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 51px;
+  justify-content: center;
+  margin-bottom: 89px;
+}
+
+.lojas-item {
+  font-family: "Kaisei Tokumin";
+  color: #156039;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+.titulo-card {
+  font-size:40px;
+  padding-bottom: 13px;
+}
+
+figure {
+  position: relative;
+}
+
+hr {
+  position: absolute;
+  width: 50%;
+  border: none;
+  border-top: 2px solid #156039;
+}
+.paragrafo-card {
+  font-size: 14px;
+  padding-top: 16px;
+}
+
+button:hover {
+  background-color: #F8D456;
+  color: #156039;
+  transform: translateY(-7px);
+  transition-duration: 0.8s;
+  box-shadow: 0px 15px 20px #05103081;
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: #B9B899;
+  /*color: #000000;*/
+  padding-top: 20px;
+}
+
+.footer-section, .footer-bottom h3 p {
+  font-family: "Kaisei Tokumin";
+  font-size: 14px;
+}
+
+.footer-section {
+  /*flex: 1;*/
+  text-align: center;
+  margin: 0 10px;
+  padding-bottom: 40px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: transparent;
+  padding: 0;
+  text-align: center;
+}
+

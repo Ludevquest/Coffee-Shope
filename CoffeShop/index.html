@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Coffee</title>
+</head>
+<body>
+  <!-- MENU SUPERIOR -->
+  <section id="menusuperior">
+    <img id="logo" src="./imagens/logo.svg" alt="">
+    <nav id="menu-atalhos">
+      <p class="atalhos"> <a href="#menuInformacional">sobre nós</a></p>
+      <p class="atalhos"> <a href="#localizacao">localizacao</a></p>
+      <p class="atalhos"> <a href="#loja">loja</a></p>
+    </nav>
+  </section>
+
+  <!-- INFORMAÇÕES -->
+  <section id="menuInformacional">
+    <img src="./imagens/menu-informacional/foto1.svg" alt="">
+    <div id="text">
+      <h1><img src="./imagens/menu-informacional/foto2.svg" alt=""></h1>
+      <p id="texto-informacional">
+        por trás de <br>
+        toda pessoa de sucesso. <br>
+        existe uma boa quantidade de café
+      </p> <br>
+      <button class="botao">Venha nos conhecer</button>
+    </div>
+  </section>
+
+  <section class="container">
+    <p class="texto-frases">tudo o que você precisa é uma boa dose de café </p>
+    <p class="texto-frases">tudo o que você precisa é uma boa dose de café </p>
+    <p class="texto-frases">tudo o que você precisa é uma boa dose de café </p>
+  </section>
+
+  <!-- CATÁLOGOS -->
+  <section>
+    <div>
+      <p class="contato">Entre em contato 
+         <a href="https://wa.me/5527981114216" class="contato" target="_blank">conosco agora!</a>
+      </p>
+    </div>
+    <div id="cards">
+      <figure>
+      <img src="./imagens/catálogos/card-1.svg" alt="">
+      <figcaption class="cards-item">
+        <h1>Ambiente aconchegante</h1><br>
+        <p>e acolhedor</p>
+      </figcaption>
+      </figure>
+      <figure>
+        <img src="./imagens/catálogos/card-2.svg" alt="">
+        <figcaption class="cards-item">
+          <h1>Comidas atrativas</h1><br>
+          <p>e instagramaveis</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./imagens/catálogos/card-3.svg" alt="">
+        <figcaption class="cards-item">
+          <h1>Equipe atenciosa</h1><br>
+          <p>e preparada</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./imagens/catálogos/card-4.svg" alt="">
+        <figcaption class="cards-item">
+          <h1>Tudo feito na hora</h1><br>
+          <p>para você</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao">
+  <img src="./imagens/localizacao/loja.svg" alt="">
+  <div class="texto-container">
+    <img class="plantas" src="./imagens/localizacao/plantas.svg" alt="">
+    <h1>Coffee shop</h1>
+    <p>Encontre-nos no coração da cidade, o novo coffee shop. 
+      Estamos localizados na Pça Afonso Pena, 280 - Centro, 
+      São José dos Campos - SP, 12210-090, próximo ao banco santander. 
+      Desfrute de nossos deliciosos cafés artesanais e ambiente acolhedor 
+      em uma localização conveniente e acessível para todos os amantes de café.
+    </p>
+    <button onclick="abrirGoogleMaps()" class="botao">Veja pelo google maps!</button>
+  </div>
+</section>
+
+<!-- LOJAS -->
+<section id="loja">
+  <div id="titulo-loja">
+  <img src="./imagens/lojas/titulo-loja.svg" alt="">
+  </div>
+  <div id="cards-loja">
+    <figure>
+    <img src="./imagens/lojas/cafe.svg" alt="">
+    <figcaption class="lojas-item">
+      <h1 class="titulo-card">sacas de café</h1><hr>
+      <p class="paragrafo-card">somente os selecionados</p>
+    </figcaption>
+    </figure>
+    <figure>
+      <img src="./imagens/lojas/donuts.svg" alt="">
+      <figcaption class="lojas-item">
+        <h1 class="titulo-card">donuts gourmet</h1><hr>
+        <p class="paragrafo-card">feitos na hora!</p>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="./imagens/lojas/flores.svg" alt="">
+      <figcaption class="lojas-item">
+        <h1 class="titulo-card">flores frescas</h1><hr>
+        <p class="paragrafo-card">impressione o amor da sua vida</p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+<footer>
+  <div class="footer-section">
+      <h3>Horário de Funcionamento</h3>
+      <p>Segunda a Sexta: 8h - 20h</p>
+      <p>Sábado: 9h - 22h</p>
+      <p>Domingo: Fechado</p>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Coffee Shop. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+  
+</body>
+</html>

@@ -3,3 +3,9 @@ function abrirGoogleMaps() {
   
   window.open(url, "_blank");
 }
+
+function abrirFormulario() {
+  var url = "https://hasfakm2.forms.app/inscricao-coffee-shop";
+
+  window.open(url, "_blank");
+}

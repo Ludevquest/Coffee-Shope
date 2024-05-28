@@ -6,7 +6,7 @@ O projeto foi desenvolvido com base no layout disponibilizado pela empresa, pelo
 Com base no projeto finalizado, foram feitas algumas modificações para trazer dinamicidade, mas não saindo do protótipo inicialmente fornecido. <br>
 
 ## 🎨 Protótipo
-O protótipo deste site foi fornecido pela equipe da empresa DNC, como forma de um teste a ser realizado.
+O protótipo deste site foi fornecido pela equipe da empresa, como forma de um trabalho a ser realizado.
 
 ## 💻 Implementação
 O projeto foi implementado utilizando HTML5, CSS3, Javascript e dentre outras utilizações, auxiliar na responsividade. <br>

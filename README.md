@@ -15,7 +15,7 @@ Além disso, o deploy foi feito no Netlify.
 
 ## 👏 Resultado
 Você pode testar a aplicação aqui no link abaixo: <br>
-<a href="shcoffee.netlify.app">Link para a aplicação</a>
+<a href="https://shcoffee.netlify.app">Link para a aplicação</a>
 
 ```O acesso também está disponibilizado  na aba "About" que está ao lado.```
 

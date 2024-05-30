@@ -315,6 +315,11 @@ body.dark-mode .botao {
   color: #ffffff;
 }
 
+body.dark-mode .darken,
+body.dark-mode #texto-informacional {
+    filter: brightness(0.5);
+  }
+
 /* RESPONSIVIDADE */
 @media (max-width: 1024px) {
 

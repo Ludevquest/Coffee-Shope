@@ -1,7 +1,7 @@
 # Coffee Shop
 
 ## 🚀 Sobre o projeto
-O projeto foi desenvolvido com base no layout disponibilizado pela empresa, pelo Figma. O prazo para ser feito foi de um dia. <br>
+O projeto foi desenvolvido com base no layout criado e disponibilizado utilizando o Figma. O prazo para ser feito foi de um dia. <br>
 
 Com base no projeto finalizado, foram feitas algumas modificações para trazer dinamicidade, mas não saindo do protótipo inicialmente fornecido. <br>
 

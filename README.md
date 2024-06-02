@@ -17,7 +17,9 @@ Além disso, o deploy foi feito no Netlify.
 Você pode testar a aplicação aqui no link abaixo: <br>
 <a href="https://shcoffee.netlify.app" target="_blank">Link para a aplicação</a>
 
-```O acesso também está disponibilizado  na aba "About" que está ao lado.```
+```CLEAR MODE:```
+[2024-06-02 01-44-51.webm](https://github.com/Ludevquest/Coffee-Shope/assets/158842997/abf0893b-ad1d-411f-b7c2-751945d5f914)
+
 
 ## ⚙️ Execução
 Caso queira rodar o projeto localmente, apenas clone (ou baixe) o repositório para a sua máquina.

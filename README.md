@@ -18,9 +18,7 @@ Você pode testar a aplicação aqui no link abaixo: <br>
 <a href="https://shcoffee.netlify.app" target="_blank">Link para a aplicação</a>
 
 ```CLEAR MODE:```
-![2024-06-02 01-44-51](https://github.com/Ludevquest/Coffee-Shope/assets/158842997/540c87bd-6f9c-4b07-8dee-d72bd7c954e1)
-
-
+https://github.com/Ludevquest/Coffee-Shope/assets/158842997/f3b64a02-aca7-48e7-9238-8cac2ac85766
 
 
 ## ⚙️ Execução

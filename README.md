@@ -21,6 +21,9 @@ Você pode testar a aplicação aqui no link abaixo: <br>
 
 https://github.com/Ludevquest/Coffee-Shope/assets/158842997/f3b64a02-aca7-48e7-9238-8cac2ac85766 
 
+```DARK MODE:```<br>
+
+https://github.com/Ludevquest/Coffee-Shope/assets/158842997/59bc25d7-576e-48cb-bb96-d2e46ec67371
 
 ## ⚙️ Execução
 Caso queira rodar o projeto localmente, apenas clone (ou baixe) o repositório para a sua máquina.
